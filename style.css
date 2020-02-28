@@ -10,12 +10,35 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
 }
+aside{
+	color: #C0C0C0;
+}
+.pre-change{
+	margin: 0;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-color: #f2f4f6;
+}
+.danger-text{
+	color: #DC143C;
+}
+.half-danger-text{
+	color: #FFA07A;
+}
+.picture {
+	line-height: 1;
+	color: #FFA500;
+}
 
 .container {
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
 }
+
 
 .page-header {
   margin: 0 0 160px;
@@ -85,6 +108,9 @@ body {
 .user-image {
   margin: 0 0 32px;
   text-align: center;
+}
+.user-image img{
+	border: 2px solid #000000;
 }
 
 .intro h3,
@@ -163,10 +189,11 @@ body {
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: none;
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .page-footer {
@@ -176,7 +203,7 @@ body {
 }
 
 .page-footer a {
-  margin-left: 56px;
+  margin-left: 20px;
   color: inherit;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -191,4 +218,12 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+#footer-contacts img{
+	height: 50px;
+    width: 50px;
+	text-align: left;
+}
+#footer-contacts img:hover {
+	opacity: 0.8;
 }
