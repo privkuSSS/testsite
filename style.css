@@ -129,7 +129,9 @@ aside{
 .skill-css {
   background-image: url("img/icon-css.svg");
 }
-
+.skill-js {
+  background-image: url("img/icon-js.svg");
+}
 .level {
   margin: 4px 0 16px;
   padding: 0;
