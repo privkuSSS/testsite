@@ -47,7 +47,14 @@ h1 {
 .avatar-container {
   text-align: center;
 }
-
+.text-statya {
+  line-height: 1.5em;
+  vertical-align: middle;
+}
+.text-statya p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
 .avatar {
   padding: 10px;
   border-radius: 50%;
